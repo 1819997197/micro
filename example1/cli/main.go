@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/micro/go-micro"
-	"will/gomicrorpc/example1/proto"
+	"will/micro/example1/proto"
 )
 
 func main() {
