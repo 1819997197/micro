@@ -7,5 +7,5 @@ generate proto model
   protoc --proto_path=$GOPATH/src:. --micro_out=. example3/proto/rpcapi/*.proto
 ```
 
-在example基础上做了改进，model/api/func等各个模块拆分
+在example1基础上做了改进，model/api/func等各个模块拆分
 
