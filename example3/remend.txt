@@ -9,3 +9,5 @@ generate proto model
 
 在example1基础上做了改进，model/api/func等各个模块拆分
 
+服务指定端口：go srv/run main.go --registry=mdns(默认consul这个可不写) --server_address=localhost:9090
+
