@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package rpcapi;
-import "will/micro/example3/proto/model/common.proto";
-
-// 服务接口
-service Order {
-    rpc Hello(model.SayParam) returns (model.SayResponse) {}
-}
