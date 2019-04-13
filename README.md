@@ -8,4 +8,4 @@
 
 ## ch03:go-micro + gorm + go-config(热加载)
 
-## ch04:etcd配置中心以及redis的使用(go-micro+redis+go-config+etcd)
+## ch04:etcd配置中心以及redis的使用(go-micro + redis + go-config + etcd)
