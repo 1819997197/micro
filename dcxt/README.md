@@ -7,7 +7,7 @@
 - redis
 - etcd
 
-![Image text](https://github.com/1819997197/micro/tree/master/dcxt/dcxt.png)
+![Image text](https://github.com/1819997197/micro/blob/master/dcxt/dcxt.png)
 
 gin作为bff层，主要用它的路由功能，对外提供http接口
 
@@ -51,30 +51,47 @@ curl http://127.0.0.1:8080/
 3.不断运行 curl http://127.0.0.1:8080/
 
 4.观察各个服务端接收请求数？
+
 order1:
+
 received_order_1:  1
+
 received_order_1:  1
 
 order2：
+
 received_order_2:  1
 
 order3：
+
 received_order_3:  1
 
 5.把服务端order3退出进程，观察各个服务请求接收数?
+
 order1:
+
 received_order_1:  1
+
 received_order_1:  1
+
 received_order_1:  1
+
 received_order_1:  1
+
 received_order_1:  1
+
 received_order_1:  1
 
 order2:
+
 received_order_2:  1
+
 received_order_2:  1
+
 received_order_2:  1
+
 received_order_2:  1
+
 received_order_2:  1
 
 6.服务可伸缩
