@@ -1,0 +1,7 @@
+mysql:
+  ServerName: "192.168.1.100"
+  ServerPort: 3306
+  UserName: "root"
+  Password: "root"
+  DbName: "test"
+  Charset: "utf8"
