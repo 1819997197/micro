@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto;
+
+message GetPayInfoReq {
+    int64 id = 1;
+}
+
+message GetPayInfoRes {
+    string msg = 1;
+    // 数组
+    repeated string values = 2;
+}
+
+// 服务接口
+service Pay {
+    rpc GetPayInfo(GetPayInfoReq) returns (GetPayInfoRes) {}
+}
