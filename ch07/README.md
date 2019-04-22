@@ -51,9 +51,12 @@ http://127.0.0.1:9411/zipkin
 
 运行结果
 ![Image text](https://github.com/1819997197/micro/blob/master/ch07/zipkin_01.png)
+
 ![Image text](https://github.com/1819997197/micro/blob/master/ch07/zipkin_02.png)
 
 zipkin架构图
+
+
 ![Image text](https://github.com/1819997197/micro/blob/master/ch07/zipkin_00.png)
 
 zipkin的基础架构一共包括4个核心组件
