@@ -14,6 +14,8 @@
 
 #### ch06: 本地开发与调试
 
-#### chxx: 日志、调用链、docker、kubernetes待更...
+#### ch07: 调用链zipkin(Transport:http、storage:内存)
+
+#### chxx: 日志、docker、kubernetes待更...
 
 #### dcxt: 整合上述知识点搭建微服务
