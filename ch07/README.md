@@ -5,7 +5,7 @@
 - etcd
 - zipkin
 
-![Image text](https://github.com/1819997197/micro/blob/master/dcxt/dcxt.png)
+![Image text](https://github.com/1819997197/micro/blob/master/ch07/ch07.png)
 
 gin作为bff层，主要用它的路由功能，对外提供http接口
 
@@ -49,8 +49,12 @@ Zipkin
 http://127.0.0.1:9411/zipkin
 ```
 
-zipkin架构图
+运行结果
+![Image text](https://github.com/1819997197/micro/blob/master/ch07/zipkin_01.png)
+![Image text](https://github.com/1819997197/micro/blob/master/ch07/zipkin_02.png)
 
+zipkin架构图
+![Image text](https://github.com/1819997197/micro/blob/master/ch07/zipkin_00.png)
 
 zipkin的基础架构一共包括4个核心组件
 - collector：收集器组件，主要用于收集每个服务发送过来的信息，并将这些信息转换为zipkin内部处理的span格式，方便存储、分析、展示。
