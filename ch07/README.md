@@ -87,3 +87,14 @@ zipkin的基础架构一共包括4个核心组件
 - Span：一个client服务从发出请求到被响应的过程称为span
 - Trace：client发出请求到完成处理，中间会经历一个调用链，这个过程称为一个调用链追踪
 - Transport：采集信息的传方式，最简单的http方式，高并发可以换成消息队列方式，如kafka(默认：http方式)
+
+zipkin数据收集
+
+
+![Image text](https://github.com/1819997197/micro/blob/master/ch07/zipkin%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86.png)
+
+
+span数据流转
+
+
+![Image text](https://github.com/1819997197/micro/blob/master/ch07/span%E6%95%B0%E6%8D%AE%E6%B5%81%E8%BD%AC.jpg)
