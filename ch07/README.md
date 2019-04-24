@@ -54,6 +54,24 @@ http://127.0.0.1:9411/zipkin
 
 ![Image text](https://github.com/1819997197/micro/blob/master/ch07/zipkin_02.png)
 
+
+zipkin安装
+```
+1.安装jdk
+//Zipkin 使用 Java8
+yum install java-1.8.0-openjdk* -y
+//安装完成后，查看是否安装成功：
+java -version
+
+2.安装zipkin
+//创建目录
+sudo mkdir -p /usr/local/zipkin && cd "$_"
+//下载zipkin
+wget -O zipkin.jar 'https://search.maven.org/remote_content?g=io.zipkin.java&a=zipkin-server&v=LATEST&c=exec'
+//启动
+java -jar zipkin.jar
+```
+
 zipkin架构图
 
 
@@ -69,4 +87,3 @@ zipkin的基础架构一共包括4个核心组件
 - Span：一个client服务从发出请求到被响应的过程称为span
 - Trace：client发出请求到完成处理，中间会经历一个调用链，这个过程称为一个调用链追踪
 - Transport：采集信息的传方式，最简单的http方式，高并发可以换成消息队列方式，如kafka(默认：http方式)
-
