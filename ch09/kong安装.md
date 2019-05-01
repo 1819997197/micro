@@ -140,7 +140,6 @@ kong migrations up -c /etc/kong/kong.conf -v
 
 kong start -c /etc/kong/kong.conf --vv
 ```
-执行 /usr/local/bin/kong start 启动
 
 ## 验证
 ```
