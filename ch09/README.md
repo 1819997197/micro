@@ -70,20 +70,8 @@ curl -i -X GET \
 ```
 
 字段解析：
-|属性	|约束	|描述|
-| --------   | -----:  | :----:  |
-|name	|required	|接入的API名称|
-|hosts	|semi-optional	|逗号分割的接入API的域名列表|
-|uris	|semi-optional	|逗号分割的接入API的前缀path，即指定uri用户通过kong刚问要加上这个path|
-|methods	|semi-optional	|逗号分割的接入API的HTTP method，如get /post/ put/delete/..|
-|upstream_url	|required	|代理的上游API Server|
-|strip_uri	|optional,default:true	|当匹配到uris前缀时，去掉请求的upstream_url中匹配的uris；即uris是挂载在kong的路径下，不是上游接口的path|
-|preserve_host	|optional,default:false	|Kong默认将上游请求的Host头设置为从API的upstream_url中提取的主机名，当通过hosts来匹配API时，确保hosts能转发到上游服务|
-|retries	|optional,default:5	|代理失败时重试的次数|
-|upstream_connect_timeout	|optional,default:60000ms	|建立与上游连接的超时时间(ms)|
-|upstream_send_timeout	|optional,default:60000ms	|在发送请求到上游服务的两个连续写入操作之间的超时时间(ms)|
-|upstream_read_timeout	|optional,default:60000ms	|在发送请求到上游服务的两个连续读取操作之间的超时时间(ms)|
-|https_only	|optional,default:false	|如果希望仅通过HTTPS转发API（默认8443端口），则启用http_if_terminated	optional,default:false	仅在https限流时才考虑设置X-Forwarded-Proto头部|
+
+![Image text](https://github.com/1819997197/micro/blob/master/ch07/ch07.png)
 
 ### 根据name或id获取一个API
 ```
