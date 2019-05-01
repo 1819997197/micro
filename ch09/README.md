@@ -71,7 +71,7 @@ curl -i -X GET \
 
 字段解析：
 
-![Image text](https://github.com/1819997197/micro/blob/master/ch07/ch07.png)
+![Image text](https://github.com/1819997197/micro/blob/master/ch09/kong.png)
 
 ### 根据name或id获取一个API
 ```
