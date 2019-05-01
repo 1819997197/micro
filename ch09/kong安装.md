@@ -178,3 +178,14 @@ drwx------. 2 nobody root    6 4月  27 21:47 uwsgi_temp
 // 这个目录和nginx的工作目录非常像
 ```
 
+## 参考资料
+```
+https://docs.konghq.com/install/centos/?_ga=2.200307758.1639498594.1556679153-1351509423.1556679153
+
+https://www.jianshu.com/p/a68e45bcadb6/
+
+https://www.jianshu.com/p/b31990c5fb6e
+
+https://linuxops.org/blog/kong/install.html
+```
+
