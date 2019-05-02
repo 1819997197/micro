@@ -143,7 +143,7 @@ vm.max_map_count = 262144
 }
 ```
 
-## elasticsearch-head插件(略)
+## 安装elasticsearch-head插件(略)
 ```
 // 参考文档
 https://segmentfault.com/a/1190000014347757
@@ -198,5 +198,11 @@ http://127.0.0.1:9411/zipkin
 运行结果:
 
 
+![Image text](https://github.com/1819997197/micro/blob/master/ch08/zipkin.png)
+
+
 查看es:
+
+
+![Image text](https://github.com/1819997197/micro/blob/master/ch08/zipkin-es.png)
 
