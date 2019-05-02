@@ -18,7 +18,7 @@
 
 #### ch08: 调用链zipkin(Transport:http、storage:elasticsearch)
 
-#### ch08: gin + kong
+#### ch09: gin + kong
 
 #### chxx: 日志、docker、kubernetes待更...
 
