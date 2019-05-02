@@ -6,6 +6,10 @@
 - go-micro
 - etcd
 
+
+![Image text](https://github.com/1819997197/micro/blob/master/ch07/ch07.png)
+
+
 ## 准备
 > * 主机 192.168.1.104 centos7.X(root、will普通用户)
 > * 主机 192.168.1.101 centos6.X
