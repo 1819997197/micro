@@ -1,4 +1,4 @@
-# gin + go-micro + etcd 搭建微服务
+# kong + gin + go-micro + etcd + zipkin 搭建微服务
 
 #### ch00: etcd集群的搭建与使用
 
@@ -15,6 +15,10 @@
 #### ch06: 本地开发与调试
 
 #### ch07: 调用链zipkin(Transport:http、storage:内存)
+
+#### ch08: 调用链zipkin(Transport:http、storage:elasticsearch)
+
+#### ch08: gin + kong
 
 #### chxx: 日志、docker、kubernetes待更...
 
