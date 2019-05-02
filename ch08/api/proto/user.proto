@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto;
+
+message GetUserInfoReq {
+    int64 id = 1;
+}
+
+message GetUserInfoRes {
+    string msg = 1;
+    // 数组
+    repeated string values = 2;
+}
+
+// 服务接口
+service User {
+    rpc GetUserInfo(GetUserInfoReq) returns (GetUserInfoRes) {}
+}

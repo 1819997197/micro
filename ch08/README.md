@@ -2,9 +2,15 @@
 
 - zipkin
 - elasticsearch
+- gin
+- go-micro
+- etcd
 
 ## 准备
 > * 主机 192.168.1.104 centos7.X(root、will普通用户)
+> * 主机 192.168.1.101 centos6.X
+> * 104主机安装elasticsearch、elasticsearch-head
+> * 101主机安装etcd、zipkin、go环境
 
 ## 安装JDK
 ```
@@ -136,3 +142,61 @@ vm.max_map_count = 262144
   "tagline" : "You Know, for Search"
 }
 ```
+
+## elasticsearch-head插件(略)
+```
+// 参考文档
+https://segmentfault.com/a/1190000014347757
+```
+
+## 启动zipkin(storage:elasticsearch)
+```
+STORAGE_TYPE=elasticsearch ES_HOSTS={es安装服务器IP}:9200 java -jar zipkin.jar
+```
+
+**修改配置，开放相关端口**
+
+
+
+## Usage
+
+Run order service
+```
+make build
+./order  --registry=etcdv3
+```
+
+Run user service
+```
+make build
+./user  --registry=etcdv3
+```
+
+Run payservice
+```
+make build
+./pay  --registry=etcdv3
+```
+
+Run api
+```
+make build
+./api
+```
+
+Run
+```
+//curl或者postman
+curl http://127.0.0.1:8080/
+```
+
+Zipkin
+```
+http://127.0.0.1:9411/zipkin
+```
+
+运行结果:
+
+
+查看es:
+

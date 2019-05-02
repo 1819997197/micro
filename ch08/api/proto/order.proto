@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+
+message GetOrderInfoReq {
+    int64 id = 1;
+}
+
+message GetOrderInfoRes {
+    string msg = 1;
+
+}
+
+// 服务接口
+service Order {
+    rpc GetOrderInfo(GetOrderInfoReq) returns (GetOrderInfoRes) {}
+}
