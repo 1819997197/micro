@@ -5,6 +5,7 @@
 - etcd
 - zipkin
 
+
 ![Image text](https://github.com/1819997197/micro/blob/master/ch07/ch07.png)
 
 gin作为bff层，主要用它的路由功能，对外提供http接口
