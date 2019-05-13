@@ -11,13 +11,15 @@
 ![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/docker.jpg)
 
 
-#### docker
+
+
+### docker
 
 我们具体来看看Docker，**Docker本身并不是容器**，它是创建容器的工具，是应用容器引擎。
 
 想要搞懂Docker，其实看它的两句口号就行。
 
-第一句，是**“Build, Ship and Run”**。
+第一句，是** “Build, Ship and Run”**。
 
 ![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/build_ship_run.jpg)
 
@@ -75,7 +77,8 @@ Docker技术的三大核心概念，分别是：
 最常使用的Registry公开服务，是官方的**Docker Hub**，这也是默认的 Registry，并拥有大量的高质量的官方镜像。
 
 
-#### 参考资料
+### 参考资料
 ```
+https://zhuanlan.zhihu.com/p/53260098
 https://yeasy.gitbooks.io/docker_practice/content/
 ```
