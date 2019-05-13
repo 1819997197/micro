@@ -4,14 +4,22 @@
 
 这家公司主要提供基于PaaS的云计算技术服务。具体来说，是和LXC有关的容器技术。
 
+![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/lxc.jpg)
+
 后来，dotCloud公司将自己的容器技术进行了简化和标准化，并命名为——Docker。
 
+![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/docker.jpg)
 
-我们具体来看看Docker，Docker本身并不是容器，它是创建容器的工具，是应用容器引擎。
+
+#### docker
+
+我们具体来看看Docker，**Docker本身并不是容器**，它是创建容器的工具，是应用容器引擎。
 
 想要搞懂Docker，其实看它的两句口号就行。
 
-第一句，是“Build, Ship and Run”。
+第一句，是**“Build, Ship and Run”**。
+
+![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/build_ship_run.jpg)
 
 也就是，“搭建、发送、运行”，三板斧。
 
@@ -19,17 +27,23 @@
 
 我来到一片空地，想建个房子，于是我搬石头、砍木头、画图纸，一顿操作，终于把这个房子盖好了。
 
+![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/home.jpg)
+
 结果，我住了一段时间，想搬到另一片空地去。这时候，按以往的办法，我只能再次搬石头、砍木头、画图纸、盖房子。
 
 但是，跑来一个老巫婆，教会我一种魔法。
 
 这种魔法，可以把我盖好的房子复制一份，做成“镜像”，放在我的背包里。
 
+![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/home2depository.jpg)
+
 等我到了另一片空地，就用这个“镜像”，复制一套房子，摆在那边，拎包入住。
+
+![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/depository2home.jpg)
 
 怎么样？是不是很神奇？
 
-所以，Docker的第二句口号就是：“Build once，Run anywhere（搭建一次，到处能用）”。
+所以，Docker的第二句口号就是：**“Build once，Run anywhere（搭建一次，到处能用）”**。
 
 Docker技术的三大核心概念，分别是：
 > * 镜像（Image）
@@ -48,12 +62,20 @@ Docker技术的三大核心概念，分别是：
 
 这么一来，我们可以交换镜像，你用我的，我用你的，岂不是很爽？
 
+![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/villa.jpg)
+
 于是乎，就变成了一个大的公共仓库。
 
-负责对Docker镜像进行管理的，是Docker Registry服务（类似仓库管理员）。
+负责对Docker镜像进行管理的，是**Docker Registry服务**（类似仓库管理员）。
 
 不是任何人建的任何镜像都是合法的。万一有人盖了一个有问题的房子呢？
 
 所以，Docker Registry服务对镜像的管理是非常严格的。
 
-最常使用的Registry公开服务，是官方的Docker Hub，这也是默认的 Registry，并拥有大量的高质量的官方镜像。
+最常使用的Registry公开服务，是官方的**Docker Hub**，这也是默认的 Registry，并拥有大量的高质量的官方镜像。
+
+
+#### 参考资料
+```
+https://yeasy.gitbooks.io/docker_practice/content/
+```
