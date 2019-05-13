@@ -19,7 +19,7 @@
 
 想要搞懂Docker，其实看它的两句口号就行。
 
-第一句，是** “Build, Ship and Run”**。
+第一句，**是“Build, Ship and Run”**。
 
 ![Image text](https://github.com/1819997197/micro/blob/master/ch11/picture/build_ship_run.jpg)
 
