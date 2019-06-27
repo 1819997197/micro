@@ -21,7 +21,7 @@
 
 ## ELK架构图
 
-![ELK架构图](https://github.com/1819997197/micro/blob/master/ch11/picture/lxc.jpg)
+![ELK架构图](https://github.com/1819997197/micro/blob/master/ch10/picture/elk%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 注：
 filebeat部署于各个业务节点上，主要用来收集原始数据；
@@ -34,4 +34,4 @@ logstash拉取消息队列数据，过滤并分析数据，然后将格式化的
 
 具体数据流向见下图：
 
-![ELK数据流向图](https://github.com/1819997197/micro/blob/master/ch11/picture/lxc.jpg)
+![ELK数据流向图](https://github.com/1819997197/micro/blob/master/ch10/picture/elk%E6%95%B0%E6%8D%AE%E6%B5%81%E5%90%91%E5%9B%BE.png)
