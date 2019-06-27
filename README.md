@@ -20,6 +20,8 @@
 
 #### ch09: gin + kong
 
+#### ch10: ELK+Filebeat+Kafka+ZooKeeper构建大数据日志分析平台
+
 #### ch11: docker实践
 
 #### chxx: 日志、docker、kubernetes待更...
