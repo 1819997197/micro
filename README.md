@@ -24,6 +24,6 @@
 
 #### ch11: docker实践
 
-#### chxx: 日志、docker、kubernetes待更...
+#### ch12: kubernetes
 
 #### dcxt: 整合上述知识点搭建微服务
